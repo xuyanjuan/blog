@@ -559,6 +559,17 @@ body::before {
   margin-top: 0.3rem;
   line-height: 0;
 }
+#footer .footer-support {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer .footer-support-logo {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.2rem;
+}
 #animate {
   animation: iconAnimate 1.33s ease-in-out infinite;
 }
@@ -631,7 +642,8 @@ body::before {
   box-sizing: border-box;
   grid-gap: 1rem;
   grid-template-columns: repeat(12, minmax(0, 1fr));
-  margin: 1rem auto;
+  margin: auto;
+  padding: 1rem;
 }
 .hty-layout-grid__cell {
   width: 100%;
@@ -2113,4 +2125,9 @@ body::before {
 }
 [data-user-color-scheme='dark'] .aplayer {
   color: #000;
+}
+.prompt-block {
+  display: none;
+  padding: 1rem;
+  border: 1px solid #d3d3d3;
 }
